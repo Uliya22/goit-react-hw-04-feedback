@@ -1,0 +1,54 @@
+.statContainer {
+  text-align: center;
+}
+.statList {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.statItem {
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #4f4f8c;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4f4f8c;
+}
+
+.statItem:not(:last-child) {
+  margin-right: 20px;
+}
+.statTitle {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4f4f8c;
+}
+
+.statText {
+  line-height: 40px;
+}
+
+.statValue {
+  margin-left: 10px;
+}
+
+.resultList {
+  display: flex;
+  justify-content: center;
+}
+
+.percentageItem {
+  display: block;
+  width: 220px;
+  height: 40px;
+  border: 2px solid #4f4f8c;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4f4f8c;
+}

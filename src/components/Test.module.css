@@ -1,0 +1,115 @@
+.wrapperContainer {
+  text-align: center;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #4f4f8c;
+}
+
+.statTitle {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4f4f8c;
+}
+
+/* Feedback */
+.feedbackContainer {
+  text-align: center;
+}
+
+.feedbackList {
+  display: flex;
+  justify-content: center;
+}
+
+.feedbackItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border: 2px solid #4f4f8c;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4f4f8c;
+  cursor: pointer;
+}
+
+.goodButton {
+  background-color: rgb(0, 255, 42);
+}
+
+.neutralButton {
+  background-color: #fff36d;
+}
+
+.badButton {
+  background-color: rgb(255, 146, 146);
+}
+
+.button:hover {
+  background-color: white;
+  box-shadow: 5px 2px 2px #4f4f8c;
+  transition: all 300ms;
+}
+
+/* Statistics */
+.statContainer {
+  text-align: center;
+}
+.statList {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.statItem {
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #4f4f8c;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4f4f8c;
+}
+
+.statItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.statText {
+  line-height: 40px;
+}
+
+.statValue {
+  margin-left: 10px;
+}
+
+.resultList {
+  display: flex;
+  justify-content: center;
+}
+
+.percentageItem {
+  display: block;
+  width: 220px;
+  height: 40px;
+  border: 2px solid #4f4f8c;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4f4f8c;
+}

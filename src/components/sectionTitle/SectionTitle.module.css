@@ -1,0 +1,16 @@
+.wrapperContainer {
+  text-align: center;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #4f4f8c;
+}
+
