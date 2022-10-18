@@ -12,21 +12,13 @@ class App extends Component {
     bad: 0,
   };
 
-  addReviewGood = event => {
+  onLeaveFeedback = event => {
+    const option = event.target.name;
     this.setState(prevState => ({
-      good: prevState.good + 1,
+      [option]: prevState[option] + 1,
     }));
   };
-  addReviewNeutral = event => {
-    this.setState(prevState => ({
-      neutral: prevState.neutral + 1,
-    }));
-  };
-  addReviewBad = event => {
-    this.setState(prevState => ({
-      bad: prevState.bad + 1,
-    }));
-  };
+  
 
   countTotalFeedback = () => {
     const { good, neutral, bad } = this.state;
@@ -51,9 +43,8 @@ class App extends Component {
       <div>
         <SectionTitle title="Please leave feedback">
           <FeedbackOptions
-            addReviewGood={this.addReviewGood}
-            addReviewNeutral={this.addReviewNeutral}
-            addReviewBad={this.addReviewBad}
+            options = {['good', 'neutral', 'bad']}
+            onLeaveFeedback = {this.onLeaveFeedback}
           />
         </SectionTitle>
 

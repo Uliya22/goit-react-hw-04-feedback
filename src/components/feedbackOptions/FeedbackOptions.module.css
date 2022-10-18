@@ -22,20 +22,10 @@
   cursor: pointer;
 }
 
-.goodButton {
-  background-color: rgb(0, 255, 42);
-}
-
-.neutralButton {
-  background-color: #fff36d;
-}
-
-.badButton {
-  background-color: rgb(255, 146, 146);
-}
-
 .button:hover {
-  background-color: white;
-  box-shadow: 5px 2px 2px #4f4f8c;
+  background-color: #4f4f8c;
+  box-shadow: 5px 2px 2px #9b9bd5;
+  color: white;
   transition: 300ms;
+  
 }
